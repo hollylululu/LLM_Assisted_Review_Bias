@@ -22,13 +22,16 @@ Search queries used for retrieving literature from PubMed and Scopus. Query repr
 
 ### 2. Search_Results/
 1,172 articles in total.
+
 Raw or processed search results corresponding to the queries, serving as inputs to screening and extraction steps.
 - PubMed articles are uniquely identified by column: PMID
 - Scopus articles are uniquely identified by column: EID
 
 ### 3. Abstract_Screening_Results/
 161 articles in total.
+
 Outputs from abstract screening tasks.
+
 Articles' identifiers are embedded in column URL. Can retrieve the original PMID and EID from this colum. 
 
 ### 4. Data_Extraction_Results/
