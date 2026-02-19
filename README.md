@@ -12,6 +12,7 @@ LLM_Assisted_Review_Bias/
 ├── Data_Extraction_Results/
 ├── Query/
 ├── Search_Results/
+├── Screening_Criteria/
 └── README.md
 
 ```
@@ -34,7 +35,10 @@ Outputs from abstract screening tasks.
 
 Articles' identifiers are embedded in column URL. Can retrieve the original PMID and EID from this colum. 
 
-### 4. Data_Extraction_Results/
+### 4. Screening_Criteria/
+Inclusion and exclusion criteria used for human coders to screen the eligibility of the papers. Criteria is represented as json file, keys being "inclusion" and "exclusion", with criteria as lists. 
+
+### 5. Data_Extraction_Results/
 Results from structured data extraction tasks performed by human coders. 
 
 ## To-Do
