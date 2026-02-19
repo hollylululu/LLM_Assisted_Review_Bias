@@ -45,7 +45,7 @@ Results from structured data extraction tasks performed by human coders.
 
 ### Data
 - [ ] Extract PMID and EID from URL in Step 2. 
-- [ ] Add screening criteria as LLM prompts. 
+- [x] Add screening criteria as LLM prompts. 
 - [ ] Add data extraction codebook as LLM prompts. 
 
 ### Analysis
